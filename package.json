@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "traverse": "^0.6.7",
+    "xml-js": "^1.6.11"
+  }
+}
