@@ -51,7 +51,7 @@ const findElementCenterCoordinates = (
     let elementBoundString = undefined;
     traverse(xmlJson).forEach(function (_) {
       if (!this.node[xmlAccessor]) return;
-      if (this.node[xmlAccessor] === elementContent.toLowerCase()) {
+      if (this.node[xmlAccessor] === elementContent) {
         elementBoundString = this.node?.bounds;
       }
     });

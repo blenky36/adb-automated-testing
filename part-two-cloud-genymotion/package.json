@@ -1,5 +1,7 @@
 {
+  "name": "part-two-cloud-genymotion",
   "dependencies": {
+    "@aws-sdk/client-ec2": "^3.474.0",
     "traverse": "^0.6.7",
     "xml-js": "^1.6.11"
   }

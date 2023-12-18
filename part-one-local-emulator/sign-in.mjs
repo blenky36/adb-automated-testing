@@ -7,7 +7,7 @@ const PASSWORD = ""
 // Assumes emulator is already running
 
 console.log("Installing APK...");
-await execCommand("adb install-multiple ./zoom-apk/*.apk");
+await execCommand("adb install-multiple ../zoom-apk/*.apk");
 console.log("APK Installed!");
 console.log("Launching APK...");
 await execCommand(
